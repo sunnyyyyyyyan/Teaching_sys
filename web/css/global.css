@@ -1,0 +1,114 @@
+* {
+    padding:0;
+    margin:0;
+}
+body {
+    background-color: white;
+    font-family: Times, TimesNR, 'New Century Schoolbook',Georgia, 'New York', serif;
+    font-size:13px;
+    text-align:center;
+}
+#page {
+    width: 950px;
+    margin: 0 auto 2px auto;
+    text-align:left;
+}
+#header {
+    width:950px;
+    height:130px;
+    background-image: url("/images/top_bg.jpg");
+    background-repeat:no-repeat;
+    background-position:top;
+}
+
+#headerMenu{
+    margin-top: 90px;
+    float: left;
+    width: 750px;
+    text-align: center;
+    font-size: 18px;
+}
+#search{
+    margin-top: 100px;
+    float: right;
+    text-align:right;
+    width:200px;
+}
+#menu {
+    list-style-type:none;
+}
+.list{
+    padding-bottom: 20px;
+}
+.li{
+    float: left;
+    padding-left: 40px;
+    padding-right: 65px;
+    text-decoration: none;
+}
+#left_column {
+    margin-top: 10px;
+    float: left;
+    width:190px;
+    padding-top: 40px;
+    padding-right: 22px;
+    padding-left:0px;
+    background-color: aliceblue;
+}
+#left_login{
+    float: left;
+    width: 190px;
+    padding-top: 30px;
+    text-align: center;
+    margin: 0 auto 10px auto;
+    border-style: outset;
+}
+.enter{
+    width: 120px;
+    font-family: 'Arabic Typesetting'"
+}
+#left_sort {
+    float: left;
+    width:182px;
+    text-align:center;
+    margin: 0 auto 10px auto;
+    padding-top: 40px;
+}
+#sort_menu {
+    text-align:left;
+    line-height:35px;
+    margin: 0 10px 0 10px;
+}
+.li_sort{
+    text-decoration: none;
+}
+.li_sort_content{
+    text-decoration: none;
+}
+.tab{
+    margin-left: 60px;
+    font-size: 14px;
+}
+ul,li{
+    list-style: none;
+}
+#center_column {
+    float: right;
+    width: 738px;
+    margin: 15px 0 0px 0;
+}
+#myCarousel{
+    margin-left: 80px;
+    width: 600px;
+    position: absolute;
+}
+#footer {
+    margin:auto;
+    padding:10px 0;
+    clear: both;
+    text-align:center;
+    background-image:url('/images/bottom_bg.jpg');
+    background-repeat:no-repeat;
+    background-position:top;
+}
+
