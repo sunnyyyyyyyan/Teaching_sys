@@ -39,12 +39,12 @@ window.onload=function()
     {
         Show_Hidden(tab_4_content);
         return false;
-    }
+    };
     var tab_5=document.getElementById("tab_5");
     var tab_5_content=document.getElementById("tab_5_content");
     tab_5.onclick=function()
     {
         Show_Hidden(tab_5_content);
         return false;
-    }
+    };
 };
