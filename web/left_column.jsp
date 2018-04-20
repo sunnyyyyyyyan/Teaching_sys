@@ -28,7 +28,7 @@
 </table>
 <br>
 <br>
-<hr style="height:2px;border:none;border-top:10px solid white;width: 220px">
+<hr style="height:2px;border:none;border-top:10px solid white;width: 211px">
 <table border=0 cellpadding=0 cellspacing=0>
     <tr>
         <td>

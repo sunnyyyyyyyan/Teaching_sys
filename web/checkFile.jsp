@@ -23,7 +23,48 @@
     </div>
 
     <div id="center_column">
-        checkFile
+        <div class="checkFile">
+            <h4 align="center">所有文件列表</h4>
+            <table border="1"cellpadding="0" cellspacing="0" align="center">
+                <tr>
+                    <td>文件名</td>
+                    <td>上传日期</td>
+                    <td>上传者</td>
+                    <td>文件描述</td>
+                    <td>操作</td>
+                </tr>
+                <tr>
+                <td>软件工程.txt</td>
+                <td>2018-04-04</td>
+                <td>sunny</td>
+                <td>课件</td>
+                <td>
+                    <a href="#">删除</a>
+                    <a href="#">下载</a>
+                </td>
+            </tr>
+                <tr>
+                    <td>需求分析.pdf</td>
+                    <td>2018-04-04</td>
+                    <td>sunny</td>
+                    <td>课件</td>
+                    <td>
+                        <a href="#">删除</a>
+                        <a href="#">下载</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>面向对象.pdf</td>
+                    <td>2018-04-04</td>
+                    <td>sunny</td>
+                    <td>课件</td>
+                    <td>
+                        <a href="#">删除</a>
+                        <a href="#">下载</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
     </div>
 
     <div id="footer">

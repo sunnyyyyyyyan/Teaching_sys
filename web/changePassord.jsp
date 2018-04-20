@@ -23,7 +23,9 @@
     </div>
 
     <div id="center_column">
-        changePassword
+        <div class="changePassword">
+            div
+        </div>
     </div>
 
     <div id="footer">

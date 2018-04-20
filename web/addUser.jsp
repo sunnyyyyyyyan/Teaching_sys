@@ -26,7 +26,7 @@
         <div class="addUser">
                 <h1>添加用户</h1>
             <br>
-            <div class="addUser-content">
+            <form action="#">
                 <table border="0" cellpadding="0" cellspacing="0">
                     <tr style="height: 50px">
                         <td>
@@ -75,7 +75,7 @@
                     </tr>
                     </tr>
                 </table>
-            </div>
+            </form>
         </div>
     </div>
 

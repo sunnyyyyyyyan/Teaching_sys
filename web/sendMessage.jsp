@@ -23,7 +23,41 @@
     </div>
 
     <div id="center_column">
-        sendMessage
+        <div class="sendMessage">
+            <h4 align="center">发布通知</h4>
+            <form action="#">
+                <table border="1" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td>发布者：</td>
+                        <td>
+                            <input type="text" name="author">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>发布时间：</td>
+                        <td>
+                            <input type="date" name="sendDate">
+                            <font size="2" color="red">若手动输入，格式为：yyyy-MM-dd，例如2018-04-04</font>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>标题：</td>
+                        <td>
+                            <input type="text" name="title">
+                            <font size="2" color="red">最多可输入100字</font>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>操作：&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                        <td>
+                            <input type="submit" value="保存并发布">
+                            <font size="2" color="red">在下方输入通知内容点击发布</font>
+                        </td>
+                    </tr>
+                </table>
+                <textarea name="content" id="editor"  Style="height:40%;width:99.9%">请输入通知内容！</textarea>
+            </form>
+        </div>
     </div>
 
     <div id="footer">

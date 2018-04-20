@@ -23,7 +23,73 @@
     </div>
 
     <div id="center_column">
-        checkScore
+        <div class="checkScore">
+            <h2>成绩列表</h2>
+            <table border="1" cellspacing="0" cellpadding="0">
+                <tr style="height: 30px;">
+                    <td>学号</td>
+                    <td>成绩类型</td>
+                    <td>分数</td>
+                    <td>修改分数</td>
+                    <td>操作</td>
+                </tr>
+                <tr style="height: 30px;">
+                    <td>sunny000011110001</td>
+                    <td>大作业</td>
+                    <td>20</td>
+                    <td>
+                        <input type="text">修改
+                    </td>
+                    <td>
+                        <a href="#">删除</a>
+                    </td>
+                </tr>
+                <tr style="height: 30px;">
+                    <td>sunny000011110001</td>
+                    <td>报告</td>
+                    <td>9</td>
+                    <td>
+                        <input type="text">修改
+                    </td>
+                    <td>
+                        <a href="#">删除</a>
+                    </td>
+                </tr>
+                <tr style="height: 30px;">
+                    <td>sunny000011110001</td>
+                    <td>期中考试</td>
+                    <td>19</td>
+                    <td>
+                        <input type="text">修改
+                    </td>
+                    <td>
+                        <a href="#">删除</a>
+                    </td>
+                </tr>
+                <tr style="height: 30px;">
+                    <td>sunny000011110001</td>
+                    <td>期末考试</td>
+                    <td>45</td>
+                    <td>
+                        <input type="text">修改
+                    </td>
+                    <td>
+                        <a href="#">删除</a>
+                    </td>
+                </tr>
+                <tr style="height: 30px;">
+                    <td>sunny000011110001</td>
+                    <td>课堂互动</td>
+                    <td>5</td>
+                    <td>
+                        <input type="text">修改
+                    </td>
+                    <td>
+                        <a href="#">删除</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
     </div>
 
     <div id="footer">

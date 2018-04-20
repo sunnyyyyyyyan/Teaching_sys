@@ -25,37 +25,40 @@
     <div id="center_column">
         <div class="enterScore">
             <h2>录入成绩</h2>
-            <table border="1" cellpadding="0" cellspacing="0" width="500px">
-                <tr>
-                    <td>
-                        学号：
-                        <input type="text">
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        成绩类型：
-                        <select name="scoreType" id="scoreType">
-                            <option value="大作业">大作业</option>
-                            <option value="报告">报告</option>
-                            <option value="课堂互动">课堂互动</option>
-                            <option value="期中考试">期中考试</option>
-                            <option value="期末考试">期末考试</option>
-                        </select>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        分数：
-                        <input type="text">
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <button>录入</button>
-                    </td>
-                </tr>
-            </table>
+            <form action="#">
+
+                <table border="1" cellpadding="0" cellspacing="0" width="500px">
+                    <tr>
+                        <td>
+                            学号：
+                            <input type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            成绩类型：
+                            <select name="scoreType" id="scoreType">
+                                <option value="大作业">大作业</option>
+                                <option value="报告">报告</option>
+                                <option value="课堂互动">课堂互动</option>
+                                <option value="期中考试">期中考试</option>
+                                <option value="期末考试">期末考试</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            分数：
+                            <input type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button>录入</button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
         </div>
     </div>
 

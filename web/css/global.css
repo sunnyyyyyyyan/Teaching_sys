@@ -3,10 +3,10 @@
     margin:0;
 }
 body {
-    background-color: white;
     font-family: Times, TimesNR, 'New Century Schoolbook',Georgia, 'New York', serif;
     font-size:13px;
     text-align:center;
+    background-color: #f9f9f9;
 }
 #page {
     width: 950px;
@@ -47,7 +47,6 @@ body {
     text-decoration: none;
 }
 #left_column {
-    margin-top: 10px;
     float: left;
     width:190px;
     padding-top: 40px;
@@ -104,7 +103,6 @@ ul,li{
 }
 #footer {
     margin:auto;
-    padding:10px 0;
     clear: both;
     text-align:center;
     background-image:url('/images/bottom_bg.jpg');

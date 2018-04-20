@@ -23,7 +23,47 @@
     </div>
 
     <div id="center_column">
-        uploadFile
+        <div class="uploadFile">
+            <h4 align="center">上传资源</h4>
+            <hr>
+            <br>
+            <form action="#">
+                <table border="1" cellspacing="0" cellpadding="０">
+                    <tr>
+                        <td>上传者:</td>
+                        <td>
+                            <input type="text" name="uploader" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>上传时间:</td>
+                        <td>
+                            <input type="date" name="uploadTime"/>
+                            <font size="2" color="red">若手动输入，格式为：yyyy-MM-dd，例如2018-04-04</font>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>文件描述:&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                        <td>
+                            <textarea name="description" style="width:300px;height:60px;"></textarea>
+                            <font size="2" color="red">最多可输入100字</font>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>选择文件:</td>
+                        <td>
+                            <input type="file" name="file"/>
+                            <font size="2" color="red">文件大小不能超过50M</font>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center">
+                            <input type="submit" value="上传"/>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
     </div>
 
     <div id="footer">

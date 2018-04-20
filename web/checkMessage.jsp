@@ -23,7 +23,25 @@
     </div>
 
     <div id="center_column">
-        checkMessage
+        <div class="checkMessage">
+            <h4 align="center">通知列表</h4>
+            <table border="1" align="center">
+                <tr>
+                    <td>标题</td>
+                    <td>发布者</td>
+                    <td>发布时间</td>
+                    <td>操作</td>
+                </tr>
+                <tr>
+                    <td><a href="#">考试通知</a></td>
+                    <td>sunny</td>
+                    <td>2018-04-04}</td>
+                    <td>
+                        <a href="#">删除</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
     </div>
 
     <div id="footer">
