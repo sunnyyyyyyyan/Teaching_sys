@@ -11,6 +11,7 @@
     <title>checkMessage</title>
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 </head>
 <body>
 <div id="page">
@@ -24,22 +25,28 @@
 
     <div id="center_column">
         <div class="checkMessage">
-            <h4 align="center">通知列表</h4>
-            <table border="1" align="center">
-                <tr>
-                    <td>标题</td>
-                    <td>发布者</td>
-                    <td>发布时间</td>
-                    <td>操作</td>
-                </tr>
-                <tr>
-                    <td><a href="#">考试通知</a></td>
-                    <td>sunny</td>
-                    <td>2018-04-04}</td>
-                    <td>
-                        <a href="#">删除</a>
-                    </td>
-                </tr>
+            <h2 align="center">通知列表</h2>
+            <br>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <td>标题</td>
+                        <td>发布者</td>
+                        <td>发布时间</td>
+                        <td>操作</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="#">考试通知</a></td>
+                        <td>sunny</td>
+                        <td>2018-04-04</td>
+                        <td>
+                            <a href="#">删除</a>
+                        </td>
+                    </tr>
+
+                </tbody>
             </table>
         </div>
     </div>

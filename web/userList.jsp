@@ -11,6 +11,7 @@
     <title>userList</title>
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 </head>
 <body>
 <div id="page">
@@ -24,46 +25,51 @@
 
     <div id="center_column">
         <div class="userList">
-            <h2>所有用户列表</h2>
+            <h2 align="center">所有用户列表</h2>
+            <br>
             <form action="#">
+                <table class="table table-bordered" style="text-align: center">
+                    <thead>
+                        <tr >
+                            <td>用户编号</td>
+                            <td>姓名</td>
+                            <td>用户类型</td>
+                            <td>密码</td>
+                            <td>电话号码</td>
+                            <td>邮箱</td>
+                            <td>操作</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>cy000011110001</td>
+                            <td>sunny</td>
+                            <td>管理员</td>
+                            <td>1</td>
+                            <td>11112222</td>
+                            <td>993303027@qq.com</td>
+                            <td><a href="#">删除</a></td>
+                        </tr>
+                        <tr>
+                            <td>cy000011110002</td>
+                            <td>tom</td>
+                            <td>教师</td>
+                            <td>1</td>
+                            <td>33334444</td>
+                            <td>993303027@qq.com</td>
+                            <td><a href="#">删除</a></td>
+                        </tr>
+                        <tr>
+                            <td>cy000011110003</td>
+                            <td>lily</td>
+                            <td>学生</td>
+                            <td>1</td>
+                            <td>77778888</td>
+                            <td>993303027@qq.com</td>
+                            <td><a href="#">删除</a></td>
+                        </tr>
+                    </tbody>
 
-                <table border="1" cellspacing="0" cellpadding="0"  style="width: 600px;font-size: 12px">
-                    <tr style="height: 30px">
-                        <td>用户编号</td>
-                        <td>姓名</td>
-                        <td>用户类型</td>
-                        <td>密码</td>
-                        <td>电话号码</td>
-                        <td>邮箱</td>
-                        <td>操作</td>
-                    </tr>
-                    <tr style="height: 30px">
-                        <td>cy000011110001</td>
-                        <td>sunny</td>
-                        <td>管理员</td>
-                        <td>1</td>
-                        <td>11112222</td>
-                        <td>993303027@qq.com</td>
-                        <td><a href="#">删除</a></td>
-                    </tr>
-                    <tr style="height: 30px">
-                        <td>cy000011110002</td>
-                        <td>tom</td>
-                        <td>教师</td>
-                        <td>1</td>
-                        <td>33334444</td>
-                        <td>993303027@qq.com</td>
-                        <td><a href="#">删除</a></td>
-                    </tr>
-                    <tr style="height: 30px">
-                        <td>cy000011110003</td>
-                        <td>lily</td>
-                        <td>学生</td>
-                        <td>1</td>
-                        <td>77778888</td>
-                        <td>993303027@qq.com</td>
-                        <td><a href="#">删除</a></td>
-                    </tr>
                 </table>
             </form>
         </div>

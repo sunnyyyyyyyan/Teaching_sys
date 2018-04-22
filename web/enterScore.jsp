@@ -11,6 +11,7 @@
     <title>enterScore</title>
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 </head>
 <body>
 <div id="page">
@@ -24,10 +25,10 @@
 
     <div id="center_column">
         <div class="enterScore">
-            <h2>录入成绩</h2>
+            <h2 align="center">录入成绩</h2>
+            <br>
             <form action="#">
-
-                <table border="1" cellpadding="0" cellspacing="0" width="500px">
+                <table class="table table-bordered" style="margin:0 auto;text-align: center; width: 400px;">
                     <tr>
                         <td>
                             学号：

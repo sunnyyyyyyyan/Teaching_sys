@@ -11,6 +11,7 @@
     <title>uploadFile</title>
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 </head>
 <body>
 <div id="page">
@@ -24,11 +25,10 @@
 
     <div id="center_column">
         <div class="uploadFile">
-            <h4 align="center">上传资源</h4>
-            <hr>
+            <h2 align="center">上传资源</h2>
             <br>
             <form action="#">
-                <table border="1" cellspacing="0" cellpadding="０">
+                <table class="table table-bordered" >
                     <tr>
                         <td>上传者:</td>
                         <td>
