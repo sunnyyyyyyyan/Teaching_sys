@@ -11,7 +11,7 @@
     <title>left_column</title>
 </head>
 <body>
-<table border="0" cellpadding="0" cellspacing="0">
+<table class="table table-bordered">
     <tr>
         <td>
             <div id="left_login">
@@ -21,14 +21,11 @@
                     <font style="font-size: 12px;font-family: 'Arabic Typesetting'">密&nbsp;&nbsp;&nbsp;码：</font><input type="password" name="password" class="enter" placeholder="请输入密码"><br><br>
                     <input name="imageField" type="image" src="/images/login_button.gif" />
                 </form>
-                <br>
             </div>
         </td>
     </tr>
 </table>
 <br>
-<br>
-<hr style="height:2px;border:none;border-top:10px solid white;width: 211px">
 <table border=0 cellpadding=0 cellspacing=0>
     <tr>
         <td>
@@ -40,7 +37,6 @@
                                 <img src="/images/sort_menu.gif" width="26px" align="absmiddle" />
                                 系统管理
                             </a>
-                            <hr style="height:1px;border:none;border-top:1px dashed gray;">
                             <ul class="tab" id="tab_1_content">
                                 <li><a class="li_sort_content" href="addUser.jsp">添加用户</a></li>
                                 <li><a class="li_sort_content" href="userList.jsp">查看用户</a></li>
@@ -52,7 +48,6 @@
                                 <img src="/images/sort_menu.gif" width="26px" align="absmiddle" />
                                 教学管理
                             </a>
-                            <hr style="height:1px;border:none;border-top:1px dashed gray;">
                             <ul class="tab" id="tab_2_content">
                                 <li><a class="li_sort_content" href="enterScore.jsp">录入成绩</a></li>
                                 <li><a class="li_sort_content" href="checkScore.jsp">查看成绩</a></li>
@@ -64,7 +59,6 @@
                                 <img src="/images/sort_menu.gif" width="26px" align="absmiddle" />
                                 教学评价
                             </a>
-                            <hr style="height:1px;border:none;border-top:1px dashed gray;">
                             <ul class="tab" id="tab_3_content">
                                 <li><a class="li_sort_content" href="teaching.jsp">教学评价</a></li>
                                 <li><a class="li_sort_content" href="checkTeaching.jsp">查看评价</a></li>
@@ -75,7 +69,6 @@
                                 <img src="/images/sort_menu.gif" width="26px" align="absmiddle" />
                                 通知管理
                             </a>
-                            <hr style="height:1px;border:none;border-top:1px dashed gray;">
                             <ul class="tab" id="tab_4_content">
                                 <li><a class="li_sort_content" href="sendMessage.jsp">发布通知</a></li>
                                 <li><a class="li_sort_content" href="checkMessage.jsp">查看通知</a></li>
@@ -86,7 +79,6 @@
                                 <img src="/images/sort_menu.gif" width="26px" align="absmiddle" />
                                 资源管理
                             </a>
-                            <hr style="height:1px;border:none;border-top:1px dashed gray;">
                             <ul class="tab" id="tab_5_content">
                                 <li><a class="li_sort_content" href="uploadFile.jsp">上传文件</a></li>
                                 <li><a class="li_sort_content" href="checkFile.jsp">查看文件</a></li>

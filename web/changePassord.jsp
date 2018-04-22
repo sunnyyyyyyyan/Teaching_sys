@@ -24,7 +24,7 @@
 
     <div id="center_column">
         <div class="changePassword">
-            div
+            div.changePassword
         </div>
     </div>
 

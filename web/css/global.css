@@ -3,7 +3,9 @@
     margin:0;
 }
 body {
+    /*
     font-family: Times, TimesNR, 'New Century Schoolbook',Georgia, 'New York', serif;
+    */
     font-size:13px;
     text-align:center;
     background-color: #f9f9f9;
@@ -48,30 +50,30 @@ body {
 }
 #left_column {
     float: left;
-    width:190px;
+    width:170px;
     padding-top: 40px;
     padding-right: 22px;
     padding-left:0px;
     background-color: aliceblue;
 }
+
 #left_login{
     float: left;
-    width: 190px;
-    padding-top: 30px;
+    width: 150px;
     text-align: center;
     margin: 0 auto 10px auto;
-    border-style: outset;
 }
 .enter{
-    width: 120px;
-    font-family: 'Arabic Typesetting'"
+    width: 100px;
+    height: 25px;
+    font-size: 12px;
 }
 #left_sort {
     float: left;
-    width:182px;
+    width:150px;
     text-align:center;
     margin: 0 auto 10px auto;
-    padding-top: 40px;
+    padding-top: 20px;
 }
 #sort_menu {
     text-align:left;
@@ -93,11 +95,13 @@ ul,li{
 }
 #center_column {
     float: right;
-    width: 738px;
+    width: 780px;
     margin: 15px 0 0px 0;
 }
+.top{
+    padding-left: 80px;
+}
 #myCarousel{
-    margin-left: 80px;
     width: 600px;
     position: absolute;
 }
