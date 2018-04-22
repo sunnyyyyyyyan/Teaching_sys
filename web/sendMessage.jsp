@@ -57,7 +57,7 @@
                         </td>
                     </tr>
                 </table>
-                <textarea name="content" id="editor"  Style="height:40%;width:99.9%">请输入通知内容！</textarea>
+                <textarea name="content" id="editor"  Style="height:40%;width:99.9%" placeholder="请输入通知内容！"></textarea>
             </form>
         </div>
     </div>
